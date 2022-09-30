@@ -1,0 +1,20 @@
+print("Kolejnosc")
+
+print("Wynik dzialania 2+2*2 ", 2+2*2) #Zawsze zachowana reguła matematyczna
+print("Wynik dzialania (2+2)*2 ", (2+2)*2) 
+print("Dzielenie 5/2: ",5/2)
+print("Dzielenie z reszta 5 modul2 : ",5//2)
+print("Mnozenie 2*3: ",2*3)
+print("Potegowanie 2^3: ",2**3)
+
+print("Skrocone: ")
+x = 5
+x = x+1
+print(x)
+print("Inkrementacja o 1")
+x+=1
+print(x)
+print("Konwersja")
+a = input("Podaj 1 liczbe: ")
+b = input("Podaj 2 liczbe: ")
+print(int(a) + int(b))
