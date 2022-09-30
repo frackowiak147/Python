@@ -1,3 +1,4 @@
+
 print("Kolejnosc")
 
 print("Wynik dzialania 2+2*2 ", 2+2*2) #Zawsze zachowana reguła matematyczna
@@ -18,3 +19,8 @@ print("Konwersja")
 a = input("Podaj 1 liczbe: ")
 b = input("Podaj 2 liczbe: ")
 print(int(a) + int(b))
+print(str(a) + str(b))
+
+del y
+
+print(str(a) + str(b))
