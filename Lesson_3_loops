@@ -14,3 +14,13 @@ elif kasa < 35:
 else:
     print ("Error")
     
+########################## while, do while #######################################
+
+i = 0
+
+while i < 5:
+    print(i)
+    i += 1
+print ("koniec")
+
+####
