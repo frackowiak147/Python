@@ -1,0 +1,32 @@
+###################### TRUE FALSE
+x = True
+y = False
+
+print(x)
+print(y)
+
+print("5 equal 1?: ", 5 == 1)
+print("5 different 1?: ", 5 != 1)
+print("7 higher 5?: ", 7 < 5)
+
+#Funkcja If
+#Funkjce warunnkowe muszą mieć wcięcia! Bez wcięć warunek i wynik nie będą poprawnie działać
+if 5 == 5:
+    print("5 and 4 are equal")
+
+if 5 < 10:
+    print("True, 5 isn't bigger than 10")
+elif 5 > 10:
+    print("False, 5 is bigger than 10")
+
+x = 10
+y = 10
+
+if x > y:
+    print("X jest wieksze od Y")
+elif x < y:
+    print("X jest mniejsze od Y")
+else:
+    print("X i Y sa rowne")
+
+
