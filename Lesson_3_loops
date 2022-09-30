@@ -1,0 +1,16 @@
+################################## Function IF #####################################
+wiek = input("Tap your age: ")
+kasa = input("How much do you have?: ")
+wiek=int(wiek)
+kasa=int(kasa)
+
+print("To get to the movie, you have to have 18 years and 35 zl")
+if wiek >= 18 and kasa >= 35:
+    print("Pass available")
+elif wiek <18:
+    print ("To young for that movie")
+elif kasa < 35:
+    print("you haven't anough maney")
+else:
+    print ("Error")
+    
