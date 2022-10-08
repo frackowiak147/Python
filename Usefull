@@ -1,0 +1,1 @@
+ print(summ, end=" ") -> kolejny print po spacji
