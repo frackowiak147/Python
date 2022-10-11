@@ -1,0 +1,24 @@
+from random import randint
+
+
+#for i in range(100):
+#   print(randint(1,10)) #randint(min,max)
+
+los = randint(1,10)
+odp = -1
+i = 0
+
+print("Guess number from 1 to 10")
+
+while odp != los:
+    i+=1
+    odp = int(input("Chose number from 1 to 10:  "))
+
+    if odp > los:
+         print("Sorry, drawn number is lower then yours!")
+
+    elif odp < los:
+        print("Sorry, drawn number is higher then yours!")
+
+    elif odp == los:
+        print("You guessed it the" , i , "time!")
