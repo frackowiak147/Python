@@ -1,0 +1,37 @@
+zmienna = 1
+zmienna2 = "Abc"
+
+lista = [1, 2, "c","e"]
+print(lista)
+print(lista[0:3])
+print(zmienna2[0:3]) # typ string traktowany jest jako tablica
+lista[2]=3
+print(lista)
+
+tekst = "Hello World"
+print(tekst[0:5])
+
+print(lista + ["f","g"])
+print(lista * 3)
+print("Ilosc elementow: ", len(lista))
+
+lista.append("f")
+print(lista)
+lista.append("e")
+print(lista)
+print(lista[5][0])
+lista.insert(3,4)
+print(lista)
+
+print("Ilosc: ", lista.count(1))
+print("Index: ", lista.index("f"))
+
+lista.remove("f")
+print(lista)
+
+lista2 = [1, 20, 35, -5, 0]
+print("Min: ", min(lista2))
+print("Max: ", max(lista2))
+
+lista3 = "abcdefghijk"
+print("Max: ", min(lista3)) #max i min dziala tez na alfabet
