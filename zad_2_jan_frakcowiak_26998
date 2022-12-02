@@ -42,3 +42,32 @@ Zhongxing
 Leigongjian
 São Pedro
 Pontinha
+
+jan_diction = {
+    "1": "Styczeń",
+    "2": "Luty",
+    "3": "Marzec",
+    "4": "Kwiecień",
+    "5": "Maj",
+    "6": "Czerwiec",
+    "7": "Lipiec",
+    "8": "Sierpień",
+    "9": "Wrzesień",
+    "10": "Październik",
+    "11": "Listopad",
+    "12": "Grudzień",
+    "13": "Błąd",
+}
+
+x = input("Podaj miesiac do wyswietlenia 1-12\n")
+if(x != "1" and x != "2" and x != "3" and x != "4" and x != "5" and x != "6" and x != "7" and x != "8" and x != "9" and x != "10" and x != "11" and x != "12"):
+    print("Błędna wartość!")
+    x = 13
+x = int(x)
+
+if(x > 0 or x < 14):
+    x = str(x)
+    x = jan_diction[x]
+    print(x)
+    
+
