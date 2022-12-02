@@ -1,0 +1,44 @@
+import pandas
+import pandas as pd
+df = pd.read_csv('E:/CDV/Semestr 3 i 4/Uczenie maszynowe Python/Zajecia 2/baza/MOCK_DATA.csv')
+print(df.to_string()) 
+print(df.info()) 
+for x in df.cities:
+    if x[0] > 'K':
+      print(x)
+i = 0
+for x in df.cities:
+    
+    if x[0] > 'K':
+        if (len(x) > 6 and i < 6):
+            print(x)
+            i = i+1
+Vovchans’k
+Zheshart
+San Francisco
+Sanghan
+Norfolk County
+Liuheng
+for x in df.cities:
+    
+    if x[0] > 'K':
+        if (len(x) > 6 and len(x) < 12 and i <= 20):
+            print(x)
+            i = i+1
+            
+
+Vovchans’k
+Zheshart
+Sanghan
+Liuheng
+Sacramento
+Stockholm
+Yangxunqiao
+Wewoloe
+Olszówka
+Tashanta
+Leeuwarden
+Zhongxing
+Leigongjian
+São Pedro
+Pontinha
